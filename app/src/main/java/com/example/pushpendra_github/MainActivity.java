@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView tv;
+    TextView tv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv=findViewById(R.id.tv);
-        tv.setText("This is a pushpendra here");
+        tv1=findViewById(R.id.tv);
+
     }
 }
