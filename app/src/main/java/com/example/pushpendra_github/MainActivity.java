@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv1=findViewById(R.id.tv);
+        tv1.setText("This is new text");
 
     }
 }
